@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.HardDisk</groupId>
-    <artifactId>HardDiskGather</artifactId>
+    <groupId>org.RAM</groupId>
+    <artifactId>RamGather</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <parent>
@@ -33,24 +33,6 @@
             <artifactId>sigar</artifactId>
             <version>1.6.4</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/net.sf.json-lib/json-lib -->
-        <dependency>
-            <groupId>net.sf.json-lib</groupId>
-            <artifactId>json-lib</artifactId>
-            <version>2.4</version>
-        </dependency>
-        <dependency>
-            <groupId>com.googlecode.json-simple</groupId>
-            <artifactId>json-simple</artifactId>
-            <version>1.1</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/net.sf.json-lib/json-lib-ext-spring -->
-        <dependency>
-            <groupId>net.sf.json-lib</groupId>
-            <artifactId>json-lib-ext-spring</artifactId>
-            <version>1.0.2</version>
-        </dependency>
-
         <!--引入thymeleaf启动器-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
